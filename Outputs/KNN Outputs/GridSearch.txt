@@ -1,0 +1,15 @@
+Fitting 10 folds for each of 1368 candidates, totalling 13680 fits
+Best estimator: 
+KNeighborsClassifier(metric='manhattan', n_neighbors=13, p=1)
+Parameters:  {'algorithm': 'auto', 'metric': 'manhattan', 'n_neighbors': 13, 'p': 1, 'weights': 'uniform'}
+Highest AUC: 0.70
+Fitting 10 folds for each of 1368 candidates, totalling 13680 fits
+Best estimator: 
+KNeighborsClassifier(metric='cosine', n_neighbors=11, p=1, weights='distance')
+Parameters:  {'algorithm': 'auto', 'metric': 'cosine', 'n_neighbors': 11, 'p': 1, 'weights': 'distance'}
+Highest AUC: 0.80
+Fitting 10 folds for each of 1368 candidates, totalling 13680 fits
+Best estimator: 
+KNeighborsClassifier(metric='manhattan', n_neighbors=8, p=1, weights='distance')
+Parameters:  {'algorithm': 'auto', 'metric': 'manhattan', 'n_neighbors': 8, 'p': 1, 'weights': 'distance'}
+Highest AUC: 0.80
